@@ -1,6 +1,8 @@
 '''
 Here's an example of a python script that uses a control theory algorithm (PID) to control the flow of economic activity in the form of a simulation:
+This script uses a Proportional-Integral-Derivative (PID) controller algorithm to control the flow of economic activity in a simulation. The script defines the PID controller parameters (Kp, Ki, and Kd) and the simulation parameters (dt and time). It then sets the initial economic activity level and runs a loop to simulate the flow of economic activity over time. The loop calculates the error between the target and current activity level, and uses the PID controller algorithm to update the activity level based on the error. The script also stores the data for plotting and plots the results of the simulation.
 
+It's worth noting that this is just a simulation and the results of this script are not a direct representation of the real economy, it's just an example of how control theory algorithms can be adapted to control the flow of economic activity. Additionally, this script is just one example of how to use control theory algorithm for this purpose, there are other ways and different algorithms to approach this problem.
 '''
 
 
